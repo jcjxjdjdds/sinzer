@@ -1,18 +1,1 @@
-if($text !="/start"){
-$api = file_get_contents("https://ammar-jned.zzz.com.ua/api/smsm.php?text=$text");
-bot('sendmessage',[
-'chat_id' => $chat_id,
-'text'=>$api,
-'parse_mode'=>"markdown",'disable_web_page_preview'=>true,
-'reply_to_message_id'=>$message->message_id,
-]);}
-if($text == "بوت"){
-$a = ["🙆‍♂️💞","🦦🥺","💞💞","🥺💞","😘💞"];
-$b = array_rand($a,1);
-bot('sendmessage',[
-'chat_id'=>$chat_id,
-'text'=>"• اسمي سم سم".$a[$b],
-'parse_mode'=>'markdown',
-'reply_to_message_id'=>$message->message_id,
-]);
-}
+
