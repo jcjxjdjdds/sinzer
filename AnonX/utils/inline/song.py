@@ -15,7 +15,7 @@ def song_markup(_, vidid):
         ],
         [
             InlineKeyboardButton(
-                text="⌞ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺� ⌝", url=f"https://t.me/T4_Mohamed",
+                text="⌞ 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇 ⌝", url=f"https://t.me/O_m_xl",
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"], callback_data="close"
