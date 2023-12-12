@@ -8,13 +8,13 @@ from AnonX import app
 import re
 import sys
 
-GAME_MESSAGE = "⩹━★⊷━⌞ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب 𝙳𝙰𝚁𝙺\n\n⩹━★⊷━⌞ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺"
+GAME_MESSAGE = "⩹━★⊷━⌞ 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇� ⌝━⊶★━⩺\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇�\n\n⩹━★⊷━⌞ 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇� ⌝━⊶★━⩺"
 GAME_BUTTONS = [
     [ 
         InlineKeyboardButton ('★¦العاب 3D', callback_data= 'GAME1'),
-        InlineKeyboardButton ('𝙳𝙰𝚁𝙺 𝙳𝙰𝚁𝙺', callback_data= 'GAME2'),
+        InlineKeyboardButton ('𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇� 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇�', callback_data= 'GAME2'),
         ],[
-        InlineKeyboardButton ('⌞ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝⚡️', url =f"https://t.me/S_MA4")              
+        InlineKeyboardButton ('⌞ 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇� ⌝⚡️', url =f"https://t.me/S_MA4")              
                  ],[
                 InlineKeyboardButton(
                         "◁", callback_data="close"),
@@ -316,7 +316,7 @@ async def zohary(client: Client, message: Message):
 async def callback_query(client, CallbackQuery):
           if CallbackQuery.data == "GAME1":
             
-             GAME1_MESSAGE = "⩹━★⊷━⌞ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺\n\nمرحبا بك في قسم العاب 𝙳𝙰𝚁𝙺 3D\n\n⩹━★⊷━⌞ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺"
+             GAME1_MESSAGE = "⩹━★⊷━⌞ 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇� ⌝━⊶★━⩺\n\nمرحبا بك في قسم العاب 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇� 3D\n\n⩹━★⊷━⌞ 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇� ⌝━⊶★━⩺"
 
              GAME1_BUTTONS = [
                  [
@@ -348,7 +348,7 @@ async def callback_query(client, CallbackQuery):
                     InlineKeyboardButton (
                         "°كرة السلة°" , url=f"http://t.me/gamee?game=BasketBoy"),
                     InlineKeyboardButton (
-                        "°القط المجنون°" , url=f"http://t.me/gamee?game=𝙳𝙰𝚁𝙺azyCat"),
+                        "°القط المجنون°" , url=f"http://t.me/gamee?game=𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇�azyCat"),
                 ],[
                     InlineKeyboardButton (
                         "◁" , callback_data= 'GAME')
@@ -360,14 +360,14 @@ async def callback_query(client, CallbackQuery):
               )
           elif CallbackQuery.data == "GAME":
                
-               RETURN_GAME = "⩹━★⊷━⌞ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺\n\n★¦مرحبا بك في قسم العاب 𝙳𝙰𝚁𝙺\n★¦اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n⩹━★⊷━⌞ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺" 
+               RETURN_GAME = "⩹━★⊷━⌞ 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇� ⌝━⊶★━⩺\n\n★¦مرحبا بك في قسم العاب 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇�\n★¦اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n⩹━★⊷━⌞ 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇� ⌝━⊶★━⩺" 
 
                RETURN_BUTTON = [
                     [ 
                       InlineKeyboardButton ('★¦العاب 3D', callback_data= 'GAME1'),
-                      InlineKeyboardButton ('★¦العاب 𝙳𝙰𝚁𝙺', callback_data= 'GAME2')
+                      InlineKeyboardButton ('★¦العاب 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇�', callback_data= 'GAME2')
                       ],[
-        InlineKeyboardButton ('⌞ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝⚡️', url =f"https://t.me/S_MA4")              
+        InlineKeyboardButton ('⌞ 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇� ⌝⚡️', url =f"https://t.me/S_MA4")              
                  ],[
                 InlineKeyboardButton(
                         "◁", callback_data="close"),
@@ -380,11 +380,11 @@ async def callback_query(client, CallbackQuery):
                     )
           elif CallbackQuery.data == "GAME2":
                
-               SOURCE_GAME = "⩹━★⊷━⌞ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺\n\n★¦العاب 𝙳𝙰𝚁𝙺\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n⩹━★⊷━⌞ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺." 
+               SOURCE_GAME = "⩹━★⊷━⌞ 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇� ⌝━⊶★━⩺\n\n★¦العاب 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇�\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n⩹━★⊷━⌞ 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇� ⌝━⊶★━⩺." 
 
                SORGAM_BUTTON = [
                     [ 
-                      InlineKeyboardButton ('⌞ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝⚡️', url =f"https://t.me/S_MA4")
+                      InlineKeyboardButton ('⌞ 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇� ⌝⚡️', url =f"https://t.me/S_MA4")
                       ],[
                          InlineKeyboardButton ('◁', callback_data= 'GAME')
                     ]
