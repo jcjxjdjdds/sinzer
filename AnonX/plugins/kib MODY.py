@@ -104,7 +104,7 @@ async def reply_to_HEY(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton(" 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺", url=f"https://t.me/S_MA4"),
+                InlineKeyboardButton(" 𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 َِ𝗥َِ𝗲َِ𝗙َِ𝘇", url=f"https://t.me/O_m_xl"),
             ]
          ]
      )
