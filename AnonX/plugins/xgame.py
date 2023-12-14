@@ -380,6 +380,10 @@ async def fdsa(client, message):
 @app.on_message(command("جيت"))
 async def fdsa(client, message):
   await message.reply_text(f"لف ورجع تانى مشحوار 😂🚶‍♂👻")
+
+@app.on_message(command("قتل"))
+async def fdsa(client, message):
+  await message.reply_text(f"انت عايز تلبسني جريمة ولا اي يسطا 😹")
     
 @app.on_message(
     command(["الالعاب","العاب"])
