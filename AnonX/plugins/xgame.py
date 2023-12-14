@@ -377,6 +377,10 @@ async def fdsa(client, message):
 async def fdsa(client, message):
   await message.reply_text(f"جتك اوهه م سامع ولا ايي 😹👻")
 
+@app.on_message(command("كسم زوكا"))
+async def fdsa(client, message):
+  await message.reply_text(f"اه كسمه")
+    
 @app.on_message(
     command(["الالعاب","العاب"])
     & ~filters.edited
