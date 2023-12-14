@@ -301,6 +301,81 @@ async def llok(client, message):
 async def kaompj(client, message):
   await message.reply_text(f"تم تنزيل العضو\n│ \n└ʙʏ : {message.reply_to_message.from_user.mention}\n\n حرامي ربنا تاب عليه😂😔")
   
+@app.on_message(command("السلام عليكم"))
+async def fdsa(client, message):
+  await message.reply_text(f"وعليكم السلام")
+
+@app.on_message(command("عامل اي"))
+async def fdsa(client, message):
+  await message.reply_text(f"الحمد لله وانت يا قلبي ❤️")
+
+@app.on_message(command("طيب"))
+async def fdsa(client, message):
+  await message.reply_text(f"فرح خلتك قريب 😂")
+
+@app.on_message(command("منور"))
+async def fdsa(client, message):
+  await message.reply_text(f"دا نورك يباشا ❤️")
+
+@app.on_message(command("تف"))
+async def fdsa(client, message):
+  await message.reply_text(f"انا محترم مش بتف علي حد")
+
+@app.on_message(command("بف"))
+async def fdsa(client, message):
+  await message.reply_text(f"خدوني معاكم برايفت والنبي 🥺💔")
+
+@app.on_message(command("🙄"))
+async def fdsa(client, message):
+  await message.reply_text(f"نزل عينك تحت كدا علشان هتخاد علي قفاك 😒❤️")
+
+@app.on_message(command("سلام"))
+async def fdsa(client, message):
+  await message.reply_text(f"مع الف سلامه يقلبي متجيش تاني 😹💔🎶")
+
+@app.on_message(command("نعم"))
+async def fdsa(client, message):
+  await message.reply_text(f"نعم الله عليك 🌚❤️")
+
+@app.on_message(command("صلي علي النبي"))
+async def fdsa(client, message):
+  await message.reply_text(f"عليه الصلاه والسلام 🌝💛")
+
+@app.on_message(command("😂"))
+async def fdsa(client, message):
+  await message.reply_text(f"اضحكتك عثل زيكك ينوحيي 🌝❤️")
+
+@app.on_message(command("😭"))
+async def fdsa(client, message):
+  await message.reply_text(f"بتعيط تيب لي طيب 😥")
+
+@app.on_message(command("😒"))
+async def fdsa(client, message):
+  await message.reply_text(f"عدل وشك ونت بتكلمني 😒🙄")
+
+@app.on_message(command("الحمدلله"))
+async def fdsa(client, message):
+  await message.reply_text(f"دايما ياحبيبي 🌝❤️")
+
+@app.on_message(command("اه"))
+async def fdsa(client, message):
+  await message.reply_text(f"اه اي يا قدع عيب 😹💔")
+
+@app.on_message(command("حصل"))
+async def fdsa(client, message):
+  await message.reply_text(f"خخخ امال 😹")
+
+@app.on_message(command("تع"))
+async def fdsa(client, message):
+  await message.reply_text(f"لا عيب بتكسف 😹💔")
+
+@app.on_message(command("هاي"))
+async def fdsa(client, message):
+  await message.reply_text(f" هآي تع اشب شااي • 😹💔")
+
+@app.on_message(command("اي"))
+async def fdsa(client, message):
+  await message.reply_text(f"جتك اوهه م سامع ولا ايي 😹👻")
 
 @app.on_message(
     command(["الالعاب","العاب"])
