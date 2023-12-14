@@ -34,7 +34,7 @@ async def huhh(client: Client, message: Message):
                     InlineKeyboardButton(
                         "محمد", url=f"https://t.me/O_m_xl"),
                     InlineKeyboardButton(
-                        "ميدو, url=f"https://t.me/N_4_V"),
+                        "ميدو", url=f"https://t.me/N_4_V"),
                 ],[
                 
                     InlineKeyboardButton(
