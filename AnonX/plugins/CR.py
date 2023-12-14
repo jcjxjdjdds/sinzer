@@ -174,7 +174,7 @@ async def huhh(client: Client, message: Message):
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/ee5511d9d2d10b09cb9e8.jpg",
+        photo=f"https://telegra.ph/file/5d272517482aeeacb5b51.jpg",
         caption=f"""**⩹⊷━⌞  𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 َِ𝗥َِ𝗲َِ𝗙َِ𝘇 ⌝━━⩺**\nمرحبا بك عزيزي {message.from_user.mention} في قسم تشغيل القرأن الخاص بسورس cr\nلتتمكن من استخدام اوامر القرأن اكتب \n سورة + اسم السورة بالاسفل👇\n**⩹━━⌞  𝗦َِ𝗼َِ𝗨َِ𝗿َِ𝗖َِ𝗲 َِ𝗥َِ𝗲َِ𝗙َِ𝘇 ⌝━━⩺**""",
         reply_markup=InlineKeyboardMarkup(
             [
